@@ -18,6 +18,10 @@ var num = document.getElementById("n1");
 num.value = Math.pow(num.value, 4);
 
 }
+function seno() {
+  num = document.getElementById("n1");
+  num.value = sen(num.value);
+}
 </script>
 
 </head>
@@ -31,7 +35,7 @@ Number:
 
 <button onclick="cube()"> x^3 </button>
 <button onclick="cuarta()"> x^4 </button>
-<button onclick="sin(x)"> sin(x) </button>
+<button onclick="seno()"> sin(x) </button>
 </body>
 
 </html>
